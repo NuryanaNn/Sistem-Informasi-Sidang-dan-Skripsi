@@ -1,0 +1,1 @@
+<a href="{{ $url_download }}" target="_blank">{{ $title }}</a>

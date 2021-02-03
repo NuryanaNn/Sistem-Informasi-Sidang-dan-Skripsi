@@ -1,0 +1,35 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateInstitutionsTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('institutions', function (Blueprint $table) {
+            $table->bigIncrements('id_lppm');
+            $table->string('nidn',10);
+            $table->string('no_hp',15);
+            $table->string('email',30);
+            $table->text('alamat');
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('institutions');
+    }
+}

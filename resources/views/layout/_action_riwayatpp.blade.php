@@ -1,0 +1,1 @@
+<a class="btn btn-success detail-show" href="{{ $url_detail}}" title="Detail Riwayat {{ $data->nama }}">Detail</a>

@@ -1,0 +1,1 @@
+<a class= "btn btn-danger btn-sm hapus-grup2" id="" href="{{ $url_destroy}}" title="Hapus {{ $data->nama_grup }}">Hapus</a>

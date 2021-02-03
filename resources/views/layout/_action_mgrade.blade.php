@@ -1,0 +1,1 @@
+<a class="btn btn-primary btn-sm modal-show edit" href="{{ $url_edit}}" title="Edit {{ $data->id_nilai }}">Edit</a>
